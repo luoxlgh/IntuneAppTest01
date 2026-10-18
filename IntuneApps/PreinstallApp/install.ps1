@@ -19,6 +19,7 @@ function Log {
 $TempDir = $env:TEMP
 Log "TempDir: $TempDir"
 Log "TempDir: $TempDir"
+Log "TempDir: $TempDir"
 
 if (!(Test-Path $TempDir)) {
     Log "TempDir does not exist. Creating..."
