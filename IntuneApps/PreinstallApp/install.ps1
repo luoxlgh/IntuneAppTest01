@@ -4,7 +4,7 @@
 $ErrorActionPreference = "Stop"
 
 $LogDir  = "C:\ProgramData\MyCompany\Logs"
-$LogFile = Join-Path $LogDir "intune-install.log"
+$LogFile = Join-Path $LogDir "intune-install1.log"
 
 $DotnetDir = Join-Path $env:ProgramFiles "dotnet"
 $DotnetExe = Join-Path $DotnetDir "dotnet.exe"
